@@ -182,8 +182,6 @@ int main()
 		fltd_Temparature = alpha * fltd_Temparature + (1 - alpha) * Temparature;
 		fltd_Pressure = beta * fltd_Pressure + (1 - beta) * Pressure;
 
-		printf("Temparature : %.2f C", fltd_Temparature);
-		printf("  Pressure : %.2f mbar", fltd_Pressure);
 
 		Altitude = 44330.0f * (1.0f - pow((double)fltd_Pressure / (double)SEA_LEVEL_PRESSURE, 0.1902949f));
 
@@ -204,6 +202,9 @@ int main()
 		pre_Altitude = Altitude;
 
 		printf("Altitude : %.2f   Rate of Climb : %d cm/s\n", Altitude, roc);
+		
+		printf("Temparature : %.2f C", fltd_Temparature);
+		printf("  Pressure : %.2f mbar", fltd_Pressure);
 
 		prevSampled_time = curSampled_time;
 	}
