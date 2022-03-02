@@ -15,12 +15,12 @@ int main() {
   set_mode(newmode);
     
   while(1){
-		get_gyr(&bnod);
-		printf("GYR %3.2f %3.2f %3.2f\n", bnod.gdata_x, bnod.gdata_y, bnod.gdata_z);
+	get_gyr(&bnod);
+	printf("GYR %3.2f %3.2f %3.2f\n", bnod.gdata_x, bnod.gdata_y, bnod.gdata_z);
 	
-		get_eul(&bnod2);
-		printf("EUL %3.4f %3.4f %3.4f\n", bnod2.eul_head, bnod2.eul_roll, bnod2.eul_pitc);
-	}
+	get_eul(&bnod2);
+	printf("EUL %3.4f %3.4f %3.4f\n", bnod2.eul_head, bnod2.eul_roll, bnod2.eul_pitc);
+   }
 	
-	return 0;
+   return 0;
 }
