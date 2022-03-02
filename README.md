@@ -1,4 +1,4 @@
-# Raspberry Pi Examples with C porograming
+# Raspberry Pi Examples with C programing
 
 ## Requirements:
 ```
