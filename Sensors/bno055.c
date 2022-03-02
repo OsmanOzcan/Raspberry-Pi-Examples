@@ -9,7 +9,7 @@ int main() {
 	
   get_i2cbus("/dev/i2c-1", "0x28");
 
-	opmode_t newmode = ndof;
+  opmode_t newmode = ndof;
   struct bnogyr bnod;
   struct bnoeul bnod2;
   set_mode(newmode);
