@@ -1,5 +1,5 @@
 // Download library to /usr/include => git clone https://github.com/wdalmut/libgps.git
-// Compile => gcc gpsTest.c -l gps -lm -o gpsTest
+// Compile => gcc adafruitUltimateGPS.c -l gps -lm -o adafruitUltimateGPS
 
 #include <stdio.h>
 #include <stdlib.h>
