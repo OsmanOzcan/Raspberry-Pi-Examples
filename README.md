@@ -61,7 +61,7 @@ gcc ina219test.c raspberrypi4b_driver_ina219_interface.c iic.c driver_ina219_bas
 
 *Example wiring (be used LDR as analog sensor)*
 
-*Örnek devre (analog sensor olarak LDR kullanılmış)*
+*Örnek devre (analog sensör olarak LDR kullanılmış)*
 ### 2.2 Compile and Run
 ```
 cd ~/OsmanOzcan/Raspberry-Pi-Examples/
