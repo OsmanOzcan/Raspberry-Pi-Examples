@@ -62,3 +62,6 @@ gcc readAnalog.c -lwiringPi -o readAnalog
 ./readAnalog
 ```
 
+## 3. Motors
+### 3.1 Servo motor
+
