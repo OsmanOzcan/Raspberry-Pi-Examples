@@ -1,5 +1,5 @@
 # Raspberry Pi Examples with C programing
-This page contains some examples made with raspberry pi. C programming language is used.
+This repository provides various examples on Raspberry Pi single board computers written in C programming language.
 
 
 ## Requirements:
