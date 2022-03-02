@@ -62,6 +62,41 @@ gcc readAnalog.c -lwiringPi -o readAnalog
 ./readAnalog
 ```
 
+
 ## 3. Motors
 ### 3.1 Servo motor
+### 3.1.1 Installation
+```
+cd ~
+git clone https://github.com/richardghirst/PiBits
+```
+### 3.1.2 Compile and Run
+```
+cd ~/OsmanOzcan/Raspberry-Pi-Examples/Motors
+gcc servoMotor.c -lwiringPi -o servoMotor
+./servoMotor
+```
+
+### 3.2 Brushless Motor
+There are two alternative ways.
+### 3.2.1 Using PiGpio Library
+### 3.2.1.1 Compile and Run
+```
+cd ~/OsmanOzcan/Raspberry-Pi-Examples/Motors/BrushlessMotorPiGpio
+gcc brushlessMotorPG.c -lwiringPi -lpigpio -o brushlessMotorPG
+./brushlessMotorPG
+```
+### 3.2.2 Using ServoBlaster Library
+### 3.2.2.1 Installation
+```
+cd ~
+git clone https://github.com/richardghirst/PiBits
+```
+### 3.2.2.2 Compile and Run
+```
+cd ~/OsmanOzcan/Raspberry-Pi-Examples/Motors/BrushlessMotorServoBlaster
+gcc brushlessMotorSB.c -lwiringPi -o brushlessMotorSB
+./brushlessMotorSB
+```
+
 
