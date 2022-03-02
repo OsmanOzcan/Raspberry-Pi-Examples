@@ -60,6 +60,7 @@ gcc ina219test.c raspberrypi4b_driver_ina219_interface.c iic.c driver_ina219_bas
 ![image](https://user-images.githubusercontent.com/73670053/156428355-bfac4810-db92-459f-b870-594e43e716ee.png)
 
 *Example wiring (be used LDR as analog sensor)*
+
 *Örnek devre (analog sensor olarak LDR kullanılmış)*
 ### 2.2 Compile and Run
 ```
