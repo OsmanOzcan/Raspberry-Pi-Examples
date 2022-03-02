@@ -1,5 +1,5 @@
 // Install => git clone https://github.com/richardghirst/PiBits
-// Compile => gcc servo.c -lwiringPi -o servo
+// Compile => gcc brushlessMotorSB.c -lwiringPi -o brushlessMotorSB
 
 #include <stdio.h>
 #include <stdlib.h>
