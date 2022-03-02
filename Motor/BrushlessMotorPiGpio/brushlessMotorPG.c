@@ -1,5 +1,5 @@
 // Source => https://github.com/dharo/Motors
-// Compile => gcc brushlessMotor.c -lwiringPi -lpigpio -o brushlessMotor
+// Compile => gcc brushlessMotorPG.c -lwiringPi -lpigpio -o brushlessMotorPG
 
 #include "pigpio.h"
 #include <wiringPi.h>
