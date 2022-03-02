@@ -6,6 +6,8 @@ sudo apt-get update
 cd ~
 git clone https://github.com/OsmanOzcan/Raspberry-Pi-Examples.git
 ```
+
+
 ## 1. Sensors
 ## 1.1 Adafruit Ultimate GPS
 ### 1.1.1 Installation
@@ -48,6 +50,7 @@ cd ~/OsmanOzcan/Raspberry-Pi-Examples/Sensors/ina219
 gcc ina219test.c raspberrypi4b_driver_ina219_interface.c iic.c driver_ina219_basic.c driver_ina219.c -lm  -o ina219test
 ./ina219test
 ```
+
 
 ## 2. Analog Inputs for Raspberry Pi
    Since raspberry pi does not have an analog pin, analog reading cannot be made. Using rc circuit is one of the ways to make analog reading. This measurement can be made by calculating the charging and discharging time of the capacitor. Also, filter algorithms should be used to block out noises.
