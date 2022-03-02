@@ -8,21 +8,16 @@
 
 int main(){
 	
-    
-    
-    ina219_basic_init(INA219_ADDRESS_0, 0.1);
+	ina219_basic_init(INA219_ADDRESS_0, 0.1);
+        
+	float mA;
                       
+     	while(1){
+         	ina219_basic_read(&mA);
+              	printf("%f\n", mA);
+     	}
                         
-                        while(1)
-                        {
-                            float mA;
-                            
-                            ina219_basic_read(&mA);
-                            
-                            printf("%f\n", mA);
-                        }
-                        
-                        ina219_basic_deinit();
+    	ina219_basic_deinit();
 
 	return 0;
 }
