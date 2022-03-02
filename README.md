@@ -54,6 +54,7 @@ gcc ina219test.c raspberrypi4b_driver_ina219_interface.c iic.c driver_ina219_bas
 
 ## 2. Analog Inputs for Raspberry Pi
    Since raspberry pi does not have an analog pin, analog reading cannot be made. Using rc circuit is one of the ways to make analog reading. This measurement can be made by calculating the charging and discharging time of the capacitor. Also, filter algorithms should be used to block out noises.
+   
    Raspberry pi'nin analog pini olmadığı için analog okuma yapılamaz. Analog okuma yapmanın yollarından biri de rc devresi kullanmaktır. Bu ölçüm, kondansatörün şarj ve deşarj süresi hesaplanarak yapılabilir. Ayrıca, gürültüleri engellemek için filtre algoritmaları kullanılmalıdır.
 ### 2.1 wiring
 ![image](https://user-images.githubusercontent.com/73670053/156428355-bfac4810-db92-459f-b870-594e43e716ee.png)
