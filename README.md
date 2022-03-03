@@ -1,6 +1,8 @@
 # Raspberry Pi Examples with C programing
 This repository provides various examples on Raspberry Pi single board computers written in C programming language.
 
+Bu repository, Raspberry Pi tek kartlı bilgisayarlarda C programlama dilinde yazılmış çeşitli örnekler sunar.
+
 
 ## Requirements:
 ```
